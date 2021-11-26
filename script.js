@@ -33,4 +33,5 @@ displayContainer.addEventListener('click',(e)=>{
             e.target.parentElement.parentElement.parentElement.remove()
         },4000)
     }
-})
+});
+

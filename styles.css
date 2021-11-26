@@ -13,7 +13,8 @@ body{
 }
 
 .fa-trash,
-.fa-check{
+.fa-check
+.fa-edit{
    pointer-events: none;
 }
 .check{
