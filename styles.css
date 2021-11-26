@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body{
    text-align: center;
+   box-sizing: border-box;
+   background-color:   #83d0c9 ;
+   font-family: 'Abril Fatface', cursive;
+   letter-spacing: 0.1em;
 }
+.container{
+   width:20em;
+   align-items: center;
+}
+
+.fa-trash,
+.fa-check{
+   pointer-events: none;
+}
+.check{
+   text-decoration: line-through;
+}
+
+ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+.item , .todo-input{
+   background-color: #83d0c9;
+   border: 2px solid #bdeaee;
+}
+
+input[type=text]:focus{
+   background-color: #83d0c9;
+   border: none;
+ }
+
+li{
+   font-size: em;
+}
+ h1{
+    
+    border-bottom: 2px solid white;
+ }
