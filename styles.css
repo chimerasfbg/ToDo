@@ -6,15 +6,19 @@ body{
    background-color:   #83d0c9 ;
    font-family: 'Abril Fatface', cursive;
    letter-spacing: 0.1em;
+   overflow: auto;
 }
 .container{
-   width:20em;
+   width:30em;
    align-items: center;
+   border: 2px white solid;
+   margin-top: 2em;
+   border-radius: 30px;
+   padding:2em;
 }
 
 .fa-trash,
-.fa-check
-.fa-edit{
+.fa-check{
    pointer-events: none;
 }
 .check{
@@ -43,3 +47,8 @@ li{
     
     border-bottom: 2px solid white;
  }
+
+.wrap{
+   box-sizing: border-box;
+   
+}
